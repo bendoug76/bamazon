@@ -34,21 +34,7 @@ var printProducts = function() {
           });
       });
 }
-// var userCheckPurchase = function(id, qt) {
-//     connection.query('select * from products where item_id = ' + id, function(err, res) {
-//         if (err) throw err;
 
-//         var checkProduct = res[0].stock_quantitiy - qt;
-        
-
-//         if (checkProduct < 0) {
-//             console.log('insufficent Quantity!');
-//         } else {
-//             console.log('user may buy ' + res[0].product_name + "!")
-//             updateDb(id, res[0].stock_quantitiy, qt);
-//         }
-//     });
-// }
 
 function promptUserPurchase() {
 	
